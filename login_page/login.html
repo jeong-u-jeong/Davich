@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_page</title>
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/login.js"></script>
+</head>
+<body>
+    <input type="checkbox" id="header_popup">
+    <div class="header_popup_back">
+        <div class="header_popup">
+            <a href="../join_page/join.html" target="_blank">
+                <p>다비치마켓 회원가입하고 웰컴쿠폰 받으세요!</p>
+                <label class="close" for="header_popup">닫기</label>
+            </a>
+        </div>
+    </div>
+    <header class="header" id="header">
+        <nav class="gnb_box">
+            <ul class="gnb">
+                <li><a href="#!">로그인</a></li>
+                <li><a href="../join_page/join.html" target="_blank">회원가입</a></li>
+                <li><a href="#!">장바구니</a></li>
+                <li><a href="#!">마이페이지</a></li>
+            </ul>
+        </nav>
+        <a href="../index.html" class="logo">
+            <img src="./images/logo.png" alt="로고 이미지">
+        </a>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <ul class="sub_lnb">
+            <li><a href="#!">쿠폰</a></li>
+            <li><a href="#!">이벤트</a></li>
+            <li><a href="#!">D.매거진</a></li>
+            <li><a href="#!">보청기</a></li>
+        </ul>
+    </header> <!-- header -->
+
+    <input type="checkbox" id="chk_menu">
+    <div class="lnb_box">
+        <ul class="lnb">
+            <li class="label">
+                <label for="chk_menu"><i class="fa-sharp fa-solid fa-bars"></i></label>
+                <label for="chk_menu"><i class="fa-sharp fa-solid fa-xmark"></i></label>
+                <div class="menu_box">
+                    <div class="menu">
+                        <div class="mn best_new">
+                            <div><a href="#!">BEST</a></div>
+                            <div><a href="#!">NEW</a></div>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">안경</a></div>
+                            <ul>
+                                <li><a href="#!">티타늄</a></li>
+                                <li><a href="#!">뿔테</a></li>
+                                <li><a href="#!">메탈</a></li>
+                                <li><a href="#!">울템</a></li>
+                                <li><a href="#!">하금테</a></li>
+                                <li><a href="#!">반무테</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">선글라스</a></div>
+                            <ul>
+                                <li><a href="#!">DAON</a></li>
+                                <li><a href="#!">D.Goggles</a></li>
+                                <li><a href="#!">bibiem</a></li>
+                                <li><a href="#!">BBM</a></li>
+                                <li><a href="#!">SLASTIK</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">안경렌즈</a></div>
+                            <ul>
+                                <li><a href="#!">단초점렌즈</a></li>
+                                <li><a href="#!">누진다초점렌즈</a></li>
+                                <li><a href="#!">홈피스 돋보기</a></li>
+                                <li><a href="#!">블루라이트 차단렌즈</a></li>
+                                <li><a href="#!">변색 선글라스</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">콘택트렌즈</a></div>
+                            <ul>
+                                <li><a href="#!">원더렌즈</a></li>
+                                <li><a href="#!">뜨레뷰</a></li>
+                                <li><a href="#!">텐션</a></li>
+                                <li><a href="#!">아이럽</a></li>
+                                <li><a href="#!">쿠퍼비젼</a></li>
+                                <li><a href="#!">알콘</a></li>
+                                <li><a href="#!">바슈롬</a></li>
+                                <li><a href="#!">인터로조</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">악세사리</a></div>
+                            <ul>
+                                <li><a href="#!">안경 케이스</a></li>
+                                <li><a href="#!">콘택트렌즈 케이스</a></li>
+                                <li><a href="#!">안경줄</a></li>
+                                <li><a href="#!">안경닦이</a></li>
+                                <li><a href="#!">기타</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">샵인샵</a></div>
+                            <ul>
+                                <li><a href="#!">헬스케어</a></li>
+                                <li><a href="#!">리빙</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="main_menu"><a href="#!">BEST</a></li>
+            <li class="main_menu"><a href="#!">NEW</a></li>
+            <li class="main_menu"><a href="#!">안경</a>
+                <div>
+                <ul class="hover">
+                    <li><a href="#!">티타늄</a></li>
+                    <li><a href="#!">뿔테</a></li>
+                    <li><a href="#!">메탈</a></li>
+                    <li><a href="#!">울템</a></li>
+                    <li><a href="#!">하금테</a></li>
+                    <li><a href="#!">반무테</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="main_menu"><a href="#!">선글라스</a>
+                <ul class="hover">
+                    <li><a href="#!">DAON</a></li>
+                    <li><a href="#!">D.Goggles</a></li>
+                    <li><a href="#!">bibiem</a></li>
+                    <li><a href="#!">BBM</a></li>
+                    <li><a href="#!">SLASTIK</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="#!">안경렌즈</a>
+                <ul class="hover">
+                    <li><a href="#!">단초점렌즈</a></li>
+                    <li><a href="#!">누진다초점렌즈</a></li>
+                    <li><a href="#!">홈피스 돋보기</a></li>
+                    <li><a href="#!">블루라이트 차단렌즈</a></li>
+                    <li><a href="#!">변색 선글라스</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="#!">콘택트렌즈</a>
+                <ul class="hover">
+                    <li><a href="#!">원더렌즈</a></li>
+                    <li><a href="#!">뜨레뷰</a></li>
+                    <li><a href="#!">텐션</a></li>
+                    <li><a href="#!">아이럽</a></li>
+                    <li><a href="#!">쿠퍼비젼</a></li>
+                    <li><a href="#!">알콘</a></li>
+                    <li><a href="#!">바슈롬</a></li>
+                    <li><a href="#!">인터로조</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="#!">악세사리</a>
+                <ul class="hover">
+                    <li><a href="#!">안경 케이스</a></li>
+                    <li><a href="#!">콘택트렌즈 케이스</a></li>
+                    <li><a href="#!">안경줄</a></li>
+                    <li><a href="#!">안경닦이</a></li>
+                    <li><a href="#!">기타</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="#!">샵인샵</a>
+                <ul class="hover">
+                    <li><a href="#!">헬스케어</a></li>
+                    <li><a href="#!">리빙</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> <!-- lnb -->
+
+    <div class="wrap">
+        <div class="inner_wrap">
+            <div class="section">
+                <h2 class="title">로그인</h2>
+                <div class="txt_box">
+                    <p class="txt">아이디<input type="text" name="id" class="id" id="id"></p>
+                    <p class="txt">비밀번호<input type="text" name="pw" class="pw" id="pw"></p>
+                </div>
+                <div class="find_box">
+                    <div class="save_id"><input type="checkbox"><p>아이디저장</p></div>
+                    <div class="find">
+                        <div><a href="#!">아이디 찾기</a></div>
+                        <div><a href="#!">비밀번호 찾기</a></div>
+                    </div>
+                </div>
+                <a href="#!" class="btn_login" id="btn_login">로그인</a>
+                <div class="other_id">
+                    <p class="p">다른 계정으로 로그인</p>
+                    <div>
+                        <a href="#!"><img src="./images/facebook.jpg" alt="페이스북 이미지"></a>
+                        <a href="#!"><img src="./images/naver.jpg" alt="네이버 이미지"></a>
+                        <a href="#!"><img src="./images/kakao.jpg" alt="카카오 이미지"></a>
+                    </div>
+                </div>
+                <div class="join">
+                    <p class="p">아직 회원이 아니라면?</p>
+                    <div>
+                        <a href="../join_page/join.html" target="_blank">회원가입</a>
+                        <a href="#!">비회원주문</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer_box">
+        <footer class="footer01">
+            <div class="footer01_contents">
+                <ul class="left">
+                    <li><a href="#!">회사소개</a></li>
+                    <li><a href="#!">개인정보처리방침</a></li>
+                    <li><a href="#!">위치정보</a></li>
+                    <li><a href="#!">이용약관</a></li>
+                    <li><a href="#!">청소년보호정책</a></li>
+                    <li><a href="#!">멤버쉽회원약관</a></li>
+                    <li><a href="#!">온라인몰이용약관</a></li>
+                    <li><a href="#!">입점/제휴문의</a></li>
+                    <li><a href="#!">인재채용</a></li>
+                    <li><a href="#!">고객센터</a></li>
+                </ul>
+                <ul class="family">
+                    Family Site <i class="fa-solid fa-caret-down"></i>
+                    <li><a href="#!">다비치안경</a></li>
+                    <li><a href="#!">다비치렌즈</a></li>
+                    <li><a href="#!">다비치보청기</a></li>
+                    <li><a href="#!">K비젼안경</a></li>
+                    <li><a href="#!">bibiem</a></li>
+                </ul>
+            </div>
+        </footer>
+        <footer class="footer02">
+            <div class="footer02_contents">
+                <div class="cs">
+                    <p class="footer_title">고객센터</p>
+                    <p class="nomber">02-752-6177</p>
+                    <p class="time">평일 10:00~18:00</p>
+                    <p class="time">점심 12:30~13:30</p>
+                    <p class="time time_last">주말, 공휴일 휴무</p>
+                    <a class="bt" href="#!">자주찾는 질문</a>
+                </div>
+                <div class="notice">
+                    <p class="footer_title">공지사항</p>
+                    <a class="bt" href="#!">더보기</a>
+                    <ul>
+                        <li><a href="#!">2022년 설날 연휴 배송 안내</a></li>
+                        <li><a href="#!">21년 11월 개인정보 처리방침 변경 안내</a></li>
+                        <li><a href="#!">클라우드 서버 이전 작업으로 인한 서비스 중단 안내</a></li>
+                        <li><a href="#!">2020 추석 연휴 배송 안내</a></li>
+                    </ul>
+                </div>
+                <div class="app">
+                    <p class="footer_title">다비치 어플리케이션</p>
+                    <div class="qr">
+                        <img class="qr_img" src="./images/qr.jpg" alt="큐알코드 이미지">
+                        <p class="qr_txt1">모바일앱 다운하고 다양한 혜택을 누리세요!</p>
+                        <p class="qr_txt2">◀ 다비치 앱 설치하기</p>
+                    </div>
+                </div>                
+            </div>
+        </footer>
+        <footer class="footer03">
+            <div class="footer03_contents">
+                <div class="txt">
+                    <p>(주)다비치안경체인 대표이사 : 김인규 사업자등록번호 : 7648101136 [확인] 통신판매업신고번호 : 제2018서울중구1142호</p>
+                    <p>주소 : 서울 중구 소공로 62 3층(충무로1가) 대표전화 : 02-752-6177 이메일 : davichmarket@davich.com</p>
+                    <p>다비치마켓 © Davich Corp. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div> <!-- footer -->
+
+    <div class="top_btn">
+        <a href="#header">
+            <i class="fa-sharp fa-solid fa-arrow-up top_icon"></i>
+        </a>
+    </div> <!-- top_botton -->
+
+
+   
+
+</body>
+</html>

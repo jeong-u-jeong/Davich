@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davich</title>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js" defer></script>
+
+</head>
+<body>
+    <input type="checkbox" id="header_popup">
+    <div class="header_popup_back">
+        <div class="header_popup">
+            <a href="./join_page/join.html" target="_blank">
+                <p>다비치마켓 회원가입하고 웰컴쿠폰 받으세요!</p>
+                <label class="close" for="header_popup">닫기</label>
+            </a>
+        </div>
+    </div>
+    <header class="header" id="header">
+        <nav class="gnb_box">
+            <ul class="gnb">
+                <li><a href="./login_page/login.html">로그인</a></li>
+                <li><a href="./join_page/join.html" target="_blank">회원가입</a></li>
+                <li><a href="#!">장바구니</a></li>
+                <li><a href="#!">마이페이지</a></li>
+            </ul>
+        </nav>
+        <a href="./index.html" class="logo">
+            <img src="./images/logo.png" alt="로고 이미지">
+        </a>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <ul class="sub_lnb">
+            <li><a href="#!">쿠폰</a></li>
+            <li><a href="#!">이벤트</a></li>
+            <li><a href="#!">D.매거진</a></li>
+            <li><a href="#!">보청기</a></li>
+        </ul>
+    </header> <!-- header -->
+
+    <input type="checkbox" id="chk_menu">
+    <div class="lnb_box">
+        <ul class="lnb">
+            <li class="label">
+                <label for="chk_menu"><i class="fa-sharp fa-solid fa-bars"></i></label>
+                <label for="chk_menu"><i class="fa-sharp fa-solid fa-xmark"></i></label>
+                <div class="menu_box">
+                    <div class="menu">
+                        <div class="mn best_new">
+                            <div><a href="#!">BEST</a></div>
+                            <div><a href="#!">NEW</a></div>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">안경</a></div>
+                            <ul>
+                                <li><a href="#!">티타늄</a></li>
+                                <li><a href="#!">뿔테</a></li>
+                                <li><a href="#!">메탈</a></li>
+                                <li><a href="#!">울템</a></li>
+                                <li><a href="#!">하금테</a></li>
+                                <li><a href="#!">반무테</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">선글라스</a></div>
+                            <ul>
+                                <li><a href="#!">DAON</a></li>
+                                <li><a href="#!">D.Goggles</a></li>
+                                <li><a href="#!">bibiem</a></li>
+                                <li><a href="#!">BBM</a></li>
+                                <li><a href="#!">SLASTIK</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">안경렌즈</a></div>
+                            <ul>
+                                <li><a href="#!">단초점렌즈</a></li>
+                                <li><a href="#!">누진다초점렌즈</a></li>
+                                <li><a href="#!">홈피스 돋보기</a></li>
+                                <li><a href="#!">블루라이트 차단렌즈</a></li>
+                                <li><a href="#!">변색 선글라스</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">콘택트렌즈</a></div>
+                            <ul>
+                                <li><a href="#!">원더렌즈</a></li>
+                                <li><a href="#!">뜨레뷰</a></li>
+                                <li><a href="#!">텐션</a></li>
+                                <li><a href="#!">아이럽</a></li>
+                                <li><a href="#!">쿠퍼비젼</a></li>
+                                <li><a href="#!">알콘</a></li>
+                                <li><a href="#!">바슈롬</a></li>
+                                <li><a href="#!">인터로조</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">악세사리</a></div>
+                            <ul>
+                                <li><a href="#!">안경 케이스</a></li>
+                                <li><a href="#!">콘택트렌즈 케이스</a></li>
+                                <li><a href="#!">안경줄</a></li>
+                                <li><a href="#!">안경닦이</a></li>
+                                <li><a href="#!">기타</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="#!">샵인샵</a></div>
+                            <ul>
+                                <li><a href="#!">헬스케어</a></li>
+                                <li><a href="#!">리빙</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="main_menu"><a href="#!">BEST</a></li>
+            <li class="main_menu"><a href="#!">NEW</a></li>
+            <li class="main_menu"><a href="#!">안경</a>
+                <div>
+                <ul class="hover">
+                    <li><a href="#!">티타늄</a></li>
+                    <li><a href="#!">뿔테</a></li>
+                    <li><a href="#!">메탈</a></li>
+                    <li><a href="#!">울템</a></li>
+                    <li><a href="#!">하금테</a></li>
+                    <li><a href="#!">반무테</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="main_menu"><a href="#!">선글라스</a>
+                <ul class="hover">
+                    <li><a href="#!">DAON</a></li>
+                    <li><a href="#!">D.Goggles</a></li>
+                    <li><a href="#!">bibiem</a></li>
+                    <li><a href="#!">BBM</a></li>
+                    <li><a href="#!">SLASTIK</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="#!">안경렌즈</a>
+                <ul class="hover">
+                    <li><a href="#!">단초점렌즈</a></li>
+                    <li><a href="#!">누진다초점렌즈</a></li>
+                    <li><a href="#!">홈피스 돋보기</a></li>
+                    <li><a href="#!">블루라이트 차단렌즈</a></li>
+                    <li><a href="#!">변색 선글라스</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="#!">콘택트렌즈</a>
+                <ul class="hover">
+                    <li><a href="#!">원더렌즈</a></li>
+                    <li><a href="#!">뜨레뷰</a></li>
+                    <li><a href="#!">텐션</a></li>
+                    <li><a href="#!">아이럽</a></li>
+                    <li><a href="#!">쿠퍼비젼</a></li>
+                    <li><a href="#!">알콘</a></li>
+                    <li><a href="#!">바슈롬</a></li>
+                    <li><a href="#!">인터로조</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="#!">악세사리</a>
+                <ul class="hover">
+                    <li><a href="#!">안경 케이스</a></li>
+                    <li><a href="#!">콘택트렌즈 케이스</a></li>
+                    <li><a href="#!">안경줄</a></li>
+                    <li><a href="#!">안경닦이</a></li>
+                    <li><a href="#!">기타</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="#!">샵인샵</a>
+                <ul class="hover">
+                    <li><a href="#!">헬스케어</a></li>
+                    <li><a href="#!">리빙</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> <!-- lnb -->
+
+    <section class="visual_main">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a href="#!"><img src="./images/visual_main1.jpg" alt="비쥬얼 이미지 1"></a></div>
+                  <div class="swiper-slide"><a href="#!"><img src="./images/visual_main2.jpg" alt="비쥬얼 이미지 2"></a></div>
+                  <div class="swiper-slide"><a href="#!"><img src="./images/visual_main3.jpg" alt="비쥬얼 이미지 3"></a></div>
+                  <div class="swiper-slide"><a href="#!"><img src="./images/visual_main4.jpg" alt="비쥬얼 이미지 4"></a></div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+    </section> <!-- visual_main -->
+
+    <div class="wrap">
+        <section class="best_box">
+            <input type="radio" id="best01" name="best" checked>
+            <input type="radio" id="best02" name="best">
+            <h3 class="contents_title">Best of Best</h3>
+            <div class="best_label">
+                <label class="best_lab01" for="best01">안경</label>
+                <label class="best_lab02" for="best02">선글라스</label>
+            </div>
+            <div class="best_frame">
+                <div class="container_box">
+                    <div class="container01 container">
+                        <div class="best1">
+                            <a href="./detail_page/detail_page.html">
+                                <div class="img_box"></div>
+                                <p class="best_title">데일리 아이웨어 - DAON_3 V32222</p>
+                                <p class="best_price">30,000원</p>
+                            </a>
+                        </div>
+                        <div class="best2">
+                            <a href="./detail_page/detail_page.html">
+                                <div class="img_box"></div>
+                                <p class="best_title">BIBIEM BIJOU 04</p>
+                                <p class="best_price">175,000원</p>
+                            </a>
+                        </div>
+                        <div class="best3">
+                            <a href="./detail_page/detail_page.html">
+                                <div class="img_box"></div>
+                                <p class="best_title">다온 베타티타늄 - DAON M4916</p>
+                                <p class="best_price">99,000원</p>
+                            </a>
+                        </div>
+                    </div>                       
+                    <div class="container02 container">
+                        <div class="best4">
+                            <a href="./detail_page/detail_page.html">
+                                <div class="img_box"></div>
+                                <p class="best_title">트랜드 선글라스 - BIBIEM RAY 03</p>
+                                <p class="best_price">185,000원</p>
+                            </a>
+                        </div>
+                        <div class="best5">
+                            <a href="./detail_page/detail_page.html">
+                                <div class="img_box"></div>
+                                <p class="best_title">칼자이스 선글라스 - BIBIEM GAN 09</p>
+                                <p class="best_price">220,000원</p>
+                            </a>
+                        </div>
+                        <div class="best6">
+                            <a href="./detail_page/detail_page.html">
+                                <div class="img_box"></div>
+                                <p class="best_title">데일리 선글라스 - DAON 8024</p>
+                                <p class="best_price">29,000원</p>
+                            </a>
+                        </div>
+                    </div>      
+                </div>                 
+        </section> <!-- best -->
+
+        <section class="new_box">
+            <h3 class="contents_title">NEW</h3>
+            <div class="new_frame">
+                <div class="new">
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new01.jpg" alt="새상품 이미지1">
+                            <div class="new_txt">
+                                <p class="new_title">DAON 1003(L)</p>
+                                <p class="new_price">10,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new02.jpg" alt="새상품 이미지2">
+                            <div class="new_txt">
+                                <p class="new_title">BODAM P1053</p>
+                                <p class="new_price">10,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new03.jpg" alt="새상품 이미지3">
+                            <div class="new_txt">
+                                <p class="new_title">BIBIEM TATE 02 (50mm)</p>
+                                <p class="new_price">150,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new04.jpg" alt="새상품 이미지4">
+                            <div class="new_txt">
+                                <p class="new_title">BODAM P1051</p>
+                                <p class="new_price">10,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new05.jpg" alt="새상품 이미지5">
+                            <div class="new_txt">
+                                <p class="new_title">DAON 1001(S)</p>
+                                <p class="new_price">10,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new06.jpg" alt="새상품 이미지6">
+                            <div class="new_txt">
+                                <p class="new_title">BODAM P1052</p>
+                                <p class="new_price">10,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new07.jpg" alt="새상품 이미지7">
+                            <div class="new_txt">
+                                <p class="new_title">BODAM P1054</p>
+                                <p class="new_price">10,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new08.jpg" alt="새상품 이미지8">
+                            <div class="new_txt">
+                                <p class="new_title">DAON 1005(M)</p>
+                                <p class="new_price">10,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new01.jpg" alt="새상품 이미지1">
+                            <div class="new_txt">
+                                <p class="new_title">DAON 1003(L)</p>
+                                <p class="new_price">10,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new02.jpg" alt="새상품 이미지2">
+                            <div class="new_txt">
+                                <p class="new_title">BODAM P1053</p>
+                                <p class="new_price">10,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new03.jpg" alt="새상품 이미지3">
+                            <div class="new_txt">
+                                <p class="new_title">BIBIEM TATE 02 (50mm)</p>
+                                <p class="new_price">150,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="./detail_page/detail_page.html">
+                            <img src="./images/new04.jpg" alt="새상품 이미지4">
+                            <div class="new_txt">
+                                <p class="new_title">BODAM P1051</p>
+                                <p class="new_price">10,000원</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- new -->
+
+
+        <section class="glasslens_box">
+            <input type="radio" name="glasslens_rad" id="gl_rad01" checked>
+            <input type="radio" name="glasslens_rad" id="gl_rad02">
+            <input type="radio" name="glasslens_rad" id="gl_rad03">
+            <input type="radio" name="glasslens_rad" id="gl_rad04">
+            <h3 class="contents_title">내 눈에 맞는 안경렌즈 찾기!</h3>
+            <div class="label">
+                <label for="gl_rad01"><div><p>야외활동시 눈부심</p></div></label>
+                <label for="gl_rad02"><div><p>스마트폰 장시간 사용</p></div></label>
+                <label for="gl_rad03"><div><p>근거리 불편</p></div></label>
+                <label for="gl_rad04"><div><p>실내활동 많은 중장년</p></div></label>
+            </div>
+            <div class="contents_frame">
+                <div class="contents">
+                    <div class="contents01">
+                        <div class="category">
+                            <div class="left">
+                                <p class="category_title">변색렌즈</p>
+                                <p>시간과 장소에 관계없이 <br/>색상과 농도가 햇빛의 양에 따라 <br/>변하는 변색렌즈</p>
+                                <a href="#!">자세히보기</a>                          
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens01_1.png" alt="렌즈 이미지 01">
+                                    <p class="title">블루라이트차단 변색렌즈 - BLUE PLUS SUN</p>
+                                    <p class="price">50,000원</p>
+                                </a>
+                            </div>
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens01_2.png" alt="렌즈 이미지 02">
+                                    <p class="title">변색렌즈 - 5 in 1 올인원 포토크로믹</p>
+                                    <p class="price">50,000원</p>
+                                </a>
+                            </div>
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens01_3.png" alt="렌즈 이미지 02">
+                                    <p class="title">블루라이트차단 변색렌즈 - BLUE PLUS 체인지</p>
+                                    <p class="price">89,000원</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contents02">
+                        <div class="category">
+                            <div class="left">
+                                <p class="category_title">블루라이트 <br/> 차단</p>
+                                <p>LED 또는 디지털기기 화면에서 <br/> 발생하는 청색광을 차단하여 <br/>눈을 보호하는 렌즈</p>
+                                <a href="#!">자세히보기</a>                          
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens02_1.png" alt="렌즈 이미지 01">
+                                    <p class="title">블루라이트 차단 렌즈 - 블루라이트 MK</p>
+                                    <p class="price">9,900원</p>
+                                </a>
+                            </div>
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens02_2.png" alt="렌즈 이미지 02">
+                                    <p class="title">블루라이트차단 피로감소 렌즈 - 아이젠</p>
+                                    <p class="price">79,000원</p>
+                                </a>
+                            </div>
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens02_3.png" alt="렌즈 이미지 02">
+                                    <p class="title">블루라이트 차단안경 set (테+도수렌즈)</p>
+                                    <p class="price">89,000원</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contents03">
+                        <div class="category">
+                            <div class="left">
+                                <p class="category_title">누진렌즈</p>
+                                <p>이중초점렌즈의 단점을 보완하여<br/> 멀리도 가까이도 잘 보이는 <br/>누진다초점렌즈</p>
+                                <a href="#!">자세히보기</a>                          
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens03_1.png" alt="렌즈 이미지 01">
+                                    <p class="title">개인맞춤 누진 - 에실로 MIDASM FIT</p>
+                                    <p class="price">130,000원</p>
+                                </a>
+                            </div>
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens03_2.png" alt="렌즈 이미지 02">
+                                    <p class="title">개인맞춤 누진 - 첫 착용자를 위한 MIDASM</p>
+                                    <p class="price">129,000원</p>
+                                </a>
+                            </div>
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens03_3.png" alt="렌즈 이미지 02">
+                                    <p class="title">개인맞춤 누진 - MIDASM 블랙에디션</p>
+                                    <p class="price">130,000원</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contents04">
+                        <div class="category">
+                            <div class="left">
+                                <p class="category_title">홈피스 <br/> 돋보기</p>
+                                <p>컴퓨터 및 노트북 사용시<br/> 편안한 시야를 제공하는 <br/>중근거리 업무에 적합한 렌즈</p>
+                                <a href="#!">자세히보기</a>                          
+                            </div>
+                        </div>
+                        <div class="product">
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens04_1.png" alt="렌즈 이미지 01">
+                                    <p class="title">개인맞춤 MIDASM 홈피스 돋보기</p>
+                                    <p class="price">49,000원</p>
+                                </a>
+                            </div>
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens04_2.png" alt="렌즈 이미지 02">
+                                    <p class="title">MIDASM 워크 홈피스</p>
+                                    <p class="price">79,000원</p>
+                                </a>
+                            </div>
+                            <div class="pro">
+                                <a href="./detail_page/detail_page.html">
+                                    <img src="./images/lens04_3.png" alt="렌즈 이미지 02">
+                                    <p class="title">MIDASM 스마트 홈피스</p>
+                                    <p class="price">79,000원</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section> <!-- glasslens_box -->
+    </div> <!-- wrap -->
+
+    <section class="rolling_banner"></section>
+    
+    <div class="wrap">
+        <section class="contactlens_box">
+            <h3 class="contents_title">7일마다 교체하는 텐션렌즈</h3>
+            <div class="container">
+                <div class="contact1">
+                    <a href="./detail_page/detail_page.html">
+                        <div class="img_box"></div>
+                        <p class="contactlens_title">7days - 필라인 그레이 (4+1p)</p>
+                        <p class="contactlens_price">9,000원</p>
+                    </a>
+                </div>
+                <div class="contact2">
+                    <a href="./detail_page/detail_page.html">
+                        <div class="img_box"></div>
+                        <p class="contactlens_title">7days - 필라인 브라운 (4+1p)</p>
+                        <p class="contactlens_price">9,000원</p>
+                    </a>
+                </div>
+                <div class="contact3">
+                    <a href="./detail_page/detail_page.html">
+                        <div class="img_box"></div>
+                        <p class="contactlens_title">7days - 허니썸 브라운 (10p)</p>
+                        <p class="contactlens_price">15,000원</p>
+                    </a>
+                </div>
+                <div class="contact4">
+                    <a href="./detail_page/detail_page.html">
+                        <div class="img_box"></div>
+                        <p class="contactlens_title">7days - 허니썸 그레이 (10p)</p>
+                        <p class="contactlens_price">15,000원</p>
+                    </a>
+                </div>
+                <div class="contact5">
+                    <a href="./detail_page/detail_page.html">
+                        <div class="img_box"></div>
+                        <p class="contactlens_title">7days - 로제밤 핑크 (4+1p)</p>
+                        <p class="contactlens_price">9,000원</p>
+                    </a>
+                </div>
+                <div class="contact6">
+                    <a href="./detail_page/detail_page.html">
+                        <div class="img_box"></div>
+                        <p class="contactlens_title">7days - 헤이비 그레이 (4+1p)</p>
+                        <p class="contactlens_price">9,000원</p>
+                    </a>
+                </div>
+                <div class="contact7">
+                    <a href="./detail_page/detail_page.html">
+                        <div class="img_box"></div>
+                        <p class="contactlens_title">7days - 돌체링그란데 브라운 (10p)</p>
+                        <p class="contactlens_price">15,000원</p>
+                    </a>
+                </div>
+                <div class="contact8">
+                    <a href="./detail_page/detail_page.html">
+                        <div class="img_box"></div>
+                        <p class="contactlens_title">7days - 돌체링그란데 그레이 (10p)</p>
+                        <p class="contactlens_price">15,000원</p>
+                    </a>
+                </div>
+            </div>
+        </section> <!-- contactlens -->
+        <section class="edition_box">
+            <h3 class="contents_title">BIBIEM TATE EDITION 2022</h3>
+            <div class="edition_contents">
+                <iframe width="780" height="460" src="https://www.youtube.com/embed/8nuGLXdNUYE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="#!">
+                    <div class="edition_img"></div>
+                    <div class="edition_hover">
+                        <div class="img"><img src="./images/edition_hover.jpg" alt="에디션 호버 이미지"></div>
+                        <p>BIBIEM TATE 01 (48mm)</p>
+                        <p>150,000원</p>
+                        <p class="more">자세히보기</p>
+                    </div>
+                </a>
+            </div>
+        </section> <!-- bibiem edition -->
+        <section class="event_box">
+            <h3 class="contents_title">EVENT</h3>
+            <div class="event_contents">
+                <img src="./images/event01.jpg" alt="이벤트 배너 이미지1">
+                <img src="./images/event02.jpg" alt="이벤트 배너 이미지2">
+            </div>
+        </section> <!-- event_banner -->
+    </div> <!-- wrap -->
+
+    <div class="footer_box">
+        <footer class="footer01">
+            <div class="footer01_contents">
+                <ul class="left">
+                    <li><a href="#!">회사소개</a></li>
+                    <li><a href="#!">개인정보처리방침</a></li>
+                    <li><a href="#!">위치정보</a></li>
+                    <li><a href="#!">이용약관</a></li>
+                    <li><a href="#!">청소년보호정책</a></li>
+                    <li><a href="#!">멤버쉽회원약관</a></li>
+                    <li><a href="#!">온라인몰이용약관</a></li>
+                    <li><a href="#!">입점/제휴문의</a></li>
+                    <li><a href="#!">인재채용</a></li>
+                    <li><a href="#!">고객센터</a></li>
+                </ul>
+                <ul class="family">
+                    Family Site <i class="fa-solid fa-caret-down"></i>
+                    <li><a href="#!">다비치안경</a></li>
+                    <li><a href="#!">다비치렌즈</a></li>
+                    <li><a href="#!">다비치보청기</a></li>
+                    <li><a href="#!">K비젼안경</a></li>
+                    <li><a href="#!">bibiem</a></li>
+                </ul>
+            </div>
+        </footer>
+        <footer class="footer02">
+            <div class="footer02_contents">
+                <div class="cs">
+                    <p class="footer_title">고객센터</p>
+                    <p class="nomber">02-752-6177</p>
+                    <p class="time">평일 10:00~18:00</p>
+                    <p class="time">점심 12:30~13:30</p>
+                    <p class="time time_last">주말, 공휴일 휴무</p>
+                    <a class="bt" href="#!">자주찾는 질문</a>
+                </div>
+                <div class="notice">
+                    <p class="footer_title">공지사항</p>
+                    <a class="bt" href="#!">더보기</a>
+                    <ul>
+                        <li><a href="#!">2022년 설날 연휴 배송 안내</a></li>
+                        <li><a href="#!">21년 11월 개인정보 처리방침 변경 안내</a></li>
+                        <li><a href="#!">클라우드 서버 이전 작업으로 인한 서비스 중단 안내</a></li>
+                        <li><a href="#!">2020 추석 연휴 배송 안내</a></li>
+                    </ul>
+                </div>
+                <div class="app">
+                    <p class="footer_title">다비치 어플리케이션</p>
+                    <div class="qr">
+                        <img class="qr_img" src="./images/qr.jpg" alt="큐알코드 이미지">
+                        <p class="qr_txt1">모바일앱 다운하고 다양한 혜택을 누리세요!</p>
+                        <p class="qr_txt2">◀ 다비치 앱 설치하기</p>
+                    </div>
+                </div>                
+            </div>
+        </footer>
+        <footer class="footer03">
+            <div class="footer03_contents">
+                <div class="txt">
+                    <p>(주)다비치안경체인 대표이사 : 김인규 사업자등록번호 : 7648101136 [확인] 통신판매업신고번호 : 제2018서울중구1142호</p>
+                    <p>주소 : 서울 중구 소공로 62 3층(충무로1가) 대표전화 : 02-752-6177 이메일 : davichmarket@davich.com</p>
+                    <p>다비치마켓 © Davich Corp. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div> <!-- footer -->
+
+    <div class="top_btn">
+        <a href="#header">
+            <i class="fa-sharp fa-solid fa-arrow-up top_icon"></i>
+        </a>
+    </div> <!-- top_botton -->
+
+    <input type="checkbox" id="wing_chk" checked>
+    <div class="wing_banner">
+        <div class="wing_btn">
+            <label for="wing_chk" class="open"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></label>
+            <label for="wing_chk" class="close"><i class="fa-sharp fa-solid fa-chevron-right"></i></label>
+        </div>
+        <div class="wing_box">
+            <div class="wing01">
+                <i class="fa-sharp fa-solid fa-chevron-left"></i>
+                <p>최근본상품</p>
+                <i class="fa-sharp fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="wing02"><a href="#!">장바구니</a></div>
+            <div class="wing03"><a href="#!">찜한상품</a></div>
+            <div class="wing04"><a href="#!">매장찾기</a></div>
+        </div>
+    </div> <!-- wing_banner -->
+
+    <input type="checkbox" id="pop">
+    <div class="popup">
+        <label for="pop" class="popup_btn"><i class="fa-solid fa-xmark"></i></label>
+        <div class="pop_img"><a href="#!"><img src="./images/popup.jpg" alt="팝업 이미지"></a></div>
+    </div>
+
+    <input type="checkbox" id="pop02">
+    <div class="popup_02_back">
+        <div class="popup_02">
+            <div class="img">
+                <div class="img01"><a href="#!"><img src="./images/pop2_1.jpg" alt="팝업2 이미지01"></a></div>
+                <div class="img02"><a href="#!"><img src="./images/pop2_2.jpg" alt="팝업2 이미지02"></a></div>
+                <label class="lab" for="pop02">
+                    <div>닫기</div>
+                </label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

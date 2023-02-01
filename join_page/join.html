@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join_page</title>
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/join.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="./js/jquery-3.6.1.min.js"></script>
+    <script src="./js/join.js"></script>
+
+</head>
+<body>
+    <header class="header" id="header">
+        <a href="../index.html" class="logo">
+            <img src="./images/logo.png" alt="로고 이미지">
+        </a>
+    </header> <!-- header -->
+
+
+    <div class="wrap">
+        <div class="title"><i class="fa-regular fa-address-card"></i><p>다비치 마켓 회원가입</p></div>
+        <div class="section">
+            <h3>회원 정보입력</h3>
+            <div class="user_infor">
+                <div class="id">
+                    <p>아이디<span>*</span></p><input type="text" id="user_id">
+                    <a href="#!" class="btn" id="btn_id">중복확인</a>
+                    <div class="id_pass" id="id_pass">사용가능한 아이디입니다.</div>
+                    <div class="id_no" id="id_no">이미 존재하는 아이디입니다.</div>
+                </div>
+                <div><p>비밀번호<span>*</span></p> <input type="password" id="user_pw"></div>
+                <div class="password_chk">
+                    <p>비밀번호 확인<span>*</span></p> <input type="password" id="user_pw_chk">
+                    <div class="txt_chk" id="txt_chk">비밀번호가 일치하지 않습니다.</div>
+                </div>
+                <div><p>이름<span>*</span></p> <input type="text" id="name"></div>
+                <div class="phone">
+                    <p>휴대전화<span>*</span></p> 
+                    <select>
+                        <option>010</option>
+                        <option>011</option>
+                        <option>012</option>
+                        <option>070</option>
+                    </select>
+                    -<input type="text">-<input type="text" class="float">
+                    <a href="#!" class="btn">인증받기</a>
+                </div>
+                <div class="sms"><p>SMS수신여부<span>*</span></p>
+                    <input type="radio" name="radio" id="rad1"> 수신함
+                    <input type="radio" name="radio" id="rad2"> 수신안함
+                </div>
+                <div class="email"><p>이메일</p> <input type="text">@<input type="text" id="email">
+                    <select id="email_select">
+                        <option>직접입력</option>
+                        <option value="naver.com">naver.com</option>
+                        <option value="gmail.com">gmail.com</option>
+                        <option value="nate.com">nate.com</option>
+                        <option value="hanmail.net">hanmail.net</option>
+                    </select>
+                </div>
+            </div>
+            <div class="box_btn">
+                <a href="#!" class="btn_join">회원가입</a>
+                <a href="#!" class="btn_close" id="btn_close" onClick="window.close()">취소</a>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer_box">
+        <footer class="footer01">
+            <div class="footer01_contents">
+                <ul class="left">
+                    <li><a href="#!">회사소개</a></li>
+                    <li><a href="#!">개인정보처리방침</a></li>
+                    <li><a href="#!">위치정보</a></li>
+                    <li><a href="#!">이용약관</a></li>
+                    <li><a href="#!">청소년보호정책</a></li>
+                    <li><a href="#!">멤버쉽회원약관</a></li>
+                    <li><a href="#!">온라인몰이용약관</a></li>
+                    <li><a href="#!">입점/제휴문의</a></li>
+                    <li><a href="#!">인재채용</a></li>
+                    <li><a href="#!">고객센터</a></li>
+                </ul>
+                <ul class="family">
+                    Family Site <i class="fa-solid fa-caret-down"></i>
+                    <li><a href="#!">다비치안경</a></li>
+                    <li><a href="#!">다비치렌즈</a></li>
+                    <li><a href="#!">다비치보청기</a></li>
+                    <li><a href="#!">K비젼안경</a></li>
+                    <li><a href="#!">bibiem</a></li>
+                </ul>
+            </div>
+        </footer>
+        <footer class="footer02">
+            <div class="footer02_contents">
+                <div class="cs">
+                    <p class="footer_title">고객센터</p>
+                    <p class="nomber">02-752-6177</p>
+                    <p class="time">평일 10:00~18:00</p>
+                    <p class="time">점심 12:30~13:30</p>
+                    <p class="time time_last">주말, 공휴일 휴무</p>
+                    <a class="bt" href="#!">자주찾는 질문</a>
+                </div>
+                <div class="notice">
+                    <p class="footer_title">공지사항</p>
+                    <a class="bt" href="#!">더보기</a>
+                    <ul>
+                        <li><a href="#!">2022년 설날 연휴 배송 안내</a></li>
+                        <li><a href="#!">21년 11월 개인정보 처리방침 변경 안내</a></li>
+                        <li><a href="#!">클라우드 서버 이전 작업으로 인한 서비스 중단 안내</a></li>
+                        <li><a href="#!">2020 추석 연휴 배송 안내</a></li>
+                    </ul>
+                </div>
+                <div class="app">
+                    <p class="footer_title">다비치 어플리케이션</p>
+                    <div class="qr">
+                        <img class="qr_img" src="./images/qr.jpg" alt="큐알코드 이미지">
+                        <p class="qr_txt1">모바일앱 다운하고 다양한 혜택을 누리세요!</p>
+                        <p class="qr_txt2">◀ 다비치 앱 설치하기</p>
+                    </div>
+                </div>                
+            </div>
+        </footer>
+        <footer class="footer03">
+            <div class="footer03_contents">
+                <div class="txt">
+                    <p>(주)다비치안경체인 대표이사 : 김인규 사업자등록번호 : 7648101136 [확인] 통신판매업신고번호 : 제2018서울중구1142호</p>
+                    <p>주소 : 서울 중구 소공로 62 3층(충무로1가) 대표전화 : 02-752-6177 이메일 : davichmarket@davich.com</p>
+                    <p>다비치마켓 © Davich Corp. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div> <!-- footer -->
+
+
+   
+
+</body>
+</html>

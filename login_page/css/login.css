@@ -1,0 +1,124 @@
+.wrap {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgb(247, 247, 247);
+}
+
+.wrap .inner_wrap {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin: 100px auto;
+    padding: 100px;
+}
+
+.section {
+    width: 430px;
+    height: 100%;
+    margin: 0 auto;
+}
+.section .title {
+    color: #5e83b5;
+    text-align: center;
+}
+.section .txt_box {
+    margin: 30px auto;
+    overflow: hidden;
+}
+.section .txt_box .txt {margin-top: 10px;}
+.section .txt_box .txt .id {margin-left: 28px;}
+.section .txt_box .txt .pw {margin-left: 12px;}
+.section .txt_box .txt input {
+    width: 350px;
+    height: 30px;
+}
+.section .find_box {
+    overflow: hidden;
+}
+.section .find_box .save_id {
+    width: 100px;
+    float: left;
+}
+.section .find_box .save_id input {
+    float: left;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+.section .find_box .save_id p {
+    font-size: 13px;
+    color: #999;
+}
+
+.section .find_box .find {
+    width: 184px;
+    font-size: 13px;
+    float: right;
+    margin-top: 3px;
+}
+.section .find_box .find div {
+    float: left;
+    padding: 0 10px;
+    line-height: 10px;
+}
+.section .find_box .find div:last-child {
+    padding-right: 0;
+    border-left: 1px solid #999;
+}
+.section .find_box .find div a {
+    color: #999;
+}
+
+.section .btn_login {
+    display: block;
+    width: 100%;
+    height: 45px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    line-height: 45px;
+    background-color: #5e83b5;
+    margin: 30px 0 38px 0;
+}
+.section .other_id, .section .join {
+    width: 100%;
+    height: 35px;
+}
+.section div .p {
+    width: 200px;
+    height: 35px;
+    color: #aaa;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 35px;
+    float: left;
+}
+.section .other_id div, .section .join div {float: right;}
+.section .other_id div a {
+    display: block;
+    width: 35px;
+    height: 35px;
+    float: left;
+    margin-left: 10px;
+}
+.section .other_id div a img {
+    width: 100%;
+}
+.section .join {margin-top: 20px;}
+.section .join div a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    font-size: 13px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #aad0ff;
+    float: left;
+    margin-left: 15px;
+    margin-top: 2.5px;
+}
+.section .join div a:last-child {
+    color: #999;
+    background-color: #eee;
+}

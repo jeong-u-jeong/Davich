@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davich_detail</title>
+    <link rel="stylesheet" href="./css/header_footer.css">
+    <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <input type="checkbox" id="header_popup">
+    <div class="header_popup_back">
+        <div class="header_popup">
+            <p>다비치마켓 회원가입하고 웰컴쿠폰 받으세요!</p>
+            <label class="close" for="header_popup">닫기</label>
+        </div>
+    </div>
+    <header class="header" id="header">
+        <nav class="gnb_box">
+            <ul class="gnb">
+                <li><a href="./login_page/login.html">로그인</a></li>
+                <li><a href="./join_page/join.html">회원가입</a></li>
+                <li><a href="#!">장바구니</a></li>
+                <li><a href="#!">마이페이지</a></li>
+            </ul>
+        </nav>
+        <a href="../index.html" class="logo">
+            <img src="./images/logo.png" alt="로고 이미지">
+        </a>
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <ul class="sub_lnb">
+            <li><a href="#!">쿠폰</a></li>
+            <li><a href="#!">이벤트</a></li>
+            <li><a href="#!">D.매거진</a></li>
+            <li><a href="#!">보청기</a></li>
+        </ul>
+    </header> <!-- header -->
+
+    <input type="checkbox" id="chk_menu">
+    <div class="lnb_box">
+        <ul class="lnb">
+            <li class="label">
+                <label for="chk_menu"><i class="fa-sharp fa-solid fa-bars"></i></label>
+                <label for="chk_menu"><i class="fa-sharp fa-solid fa-xmark"></i></label>
+                <div class="menu_box">
+                    <div class="menu">
+                        <div class="mn best_new">
+                            <div><a href="#!">BEST</a></div>
+                            <div><a href="#!">NEW</a></div>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="./sub_page/sub.html">안경</a></div>
+                            <ul>
+                                <li><a href="#!">티타늄</a></li>
+                                <li><a href="#!">뿔테</a></li>
+                                <li><a href="#!">메탈</a></li>
+                                <li><a href="#!">울템</a></li>
+                                <li><a href="#!">하금테</a></li>
+                                <li><a href="#!">반무테</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="./sub_page/sub.html">선글라스</a></div>
+                            <ul>
+                                <li><a href="#!">DAON</a></li>
+                                <li><a href="#!">D.Goggles</a></li>
+                                <li><a href="#!">bibiem</a></li>
+                                <li><a href="#!">BBM</a></li>
+                                <li><a href="#!">SLASTIK</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="./sub_page/sub.html">안경렌즈</a></div>
+                            <ul>
+                                <li><a href="#!">단초점렌즈</a></li>
+                                <li><a href="#!">누진다초점렌즈</a></li>
+                                <li><a href="#!">홈피스 돋보기</a></li>
+                                <li><a href="#!">블루라이트 차단렌즈</a></li>
+                                <li><a href="#!">변색 선글라스</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="./sub_page/sub.html">콘택트렌즈</a></div>
+                            <ul>
+                                <li><a href="#!">원더렌즈</a></li>
+                                <li><a href="#!">뜨레뷰</a></li>
+                                <li><a href="#!">텐션</a></li>
+                                <li><a href="#!">아이럽</a></li>
+                                <li><a href="#!">쿠퍼비젼</a></li>
+                                <li><a href="#!">알콘</a></li>
+                                <li><a href="#!">바슈롬</a></li>
+                                <li><a href="#!">인터로조</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="./sub_page/sub.html">악세사리</a></div>
+                            <ul>
+                                <li><a href="#!">안경 케이스</a></li>
+                                <li><a href="#!">콘택트렌즈 케이스</a></li>
+                                <li><a href="#!">안경줄</a></li>
+                                <li><a href="#!">안경닦이</a></li>
+                                <li><a href="#!">기타</a></li>
+                            </ul>
+                        </div>
+                        <div class="mn">
+                            <div class="title"><a href="./sub_page/sub.html">샵인샵</a></div>
+                            <ul>
+                                <li><a href="#!">헬스케어</a></li>
+                                <li><a href="#!">리빙</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="main_menu"><a href="#!">BEST</a></li>
+            <li class="main_menu"><a href="#!">NEW</a></li>
+            <li class="main_menu"><a href="./sub_page/sub.html">안경</a>
+                <div>
+                <ul class="hover">
+                    <li><a href="#!">티타늄</a></li>
+                    <li><a href="#!">뿔테</a></li>
+                    <li><a href="#!">메탈</a></li>
+                    <li><a href="#!">울템</a></li>
+                    <li><a href="#!">하금테</a></li>
+                    <li><a href="#!">반무테</a></li>
+                </ul>
+                </div>
+            </li>
+            <li class="main_menu"><a href="./sub_page/sub.html">선글라스</a>
+                <ul class="hover">
+                    <li><a href="#!">DAON</a></li>
+                    <li><a href="#!">D.Goggles</a></li>
+                    <li><a href="#!">bibiem</a></li>
+                    <li><a href="#!">BBM</a></li>
+                    <li><a href="#!">SLASTIK</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="./sub_page/sub.html">안경렌즈</a>
+                <ul class="hover">
+                    <li><a href="#!">단초점렌즈</a></li>
+                    <li><a href="#!">누진다초점렌즈</a></li>
+                    <li><a href="#!">홈피스 돋보기</a></li>
+                    <li><a href="#!">블루라이트 차단렌즈</a></li>
+                    <li><a href="#!">변색 선글라스</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="./sub_page/sub.html">콘택트렌즈</a>
+                <ul class="hover">
+                    <li><a href="#!">원더렌즈</a></li>
+                    <li><a href="#!">뜨레뷰</a></li>
+                    <li><a href="#!">텐션</a></li>
+                    <li><a href="#!">아이럽</a></li>
+                    <li><a href="#!">쿠퍼비젼</a></li>
+                    <li><a href="#!">알콘</a></li>
+                    <li><a href="#!">바슈롬</a></li>
+                    <li><a href="#!">인터로조</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="./sub_page/sub.html">악세사리</a>
+                <ul class="hover">
+                    <li><a href="#!">안경 케이스</a></li>
+                    <li><a href="#!">콘택트렌즈 케이스</a></li>
+                    <li><a href="#!">안경줄</a></li>
+                    <li><a href="#!">안경닦이</a></li>
+                    <li><a href="#!">기타</a></li>
+                </ul>
+            </li>
+            <li class="main_menu"><a href="./sub_page/sub.html">샵인샵</a>
+                <ul class="hover">
+                    <li><a href="#!">헬스케어</a></li>
+                    <li><a href="#!">리빙</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div> <!-- lnb -->
+
+    <div class="wrap">
+        <div class="path">
+            <a href="../index.html"><i class="fa-solid fa-house"></i></a>
+            <i class="fa-sharp fa-solid fa-chevron-right"></i>
+            <a href="#!">안경</a>
+            <i class="fa-sharp fa-solid fa-chevron-right"></i>
+            <a href="#!">메탈</a>
+        </div> <!-- path -->
+
+        <section class="product_box">
+            <div class="product">
+                <div class="product_left">
+                    <input type="radio" id="img_rad01" name="img_rad" checked>
+                    <input type="radio" id="img_rad02" name="img_rad">
+                    <div class="product_img">
+                        <div class="main_img">
+                            <img src="./images/3 V32222_01.jpg" alt="상품 이미지01">
+                            <img src="./images/3 V32222_02.jpg" alt="상품 이미지01">
+                            <input type="checkbox" id="heart">
+                            <div class="btn_icon">
+                                <label for="heart"><i class="fa-solid fa-heart"></i></i></label>
+                                <i class="fa-regular fa-share-from-square"></i>
+                            </div>
+                        </div>
+                        <div class="img_label">
+                            <label for="img_rad01"><img src="./images/3 V32222_01.jpg" alt="작은 상품 이미지01"></label>
+                            <label for="img_rad02"><img src="./images/3 V32222_02.jpg" alt="작은 상품 이미지02"></label>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div>
+                            <p>기획전 & 이벤트</p>
+                            <select>
+                                <option>기획전/이벤트를 선택하세요.</option>
+                                <option>믿고 쓰는 다비치 안경렌즈 라인업, 최저가 도전!</option>
+                                <option>눈 보호를 위한 블루라이트 차단렌즈 9,900원부터~</option>
+                                <option>웹드라마 '미녀', 드라마 속 스타일링 아이템</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="product_right">
+                    <div class="right01">
+                        <p class="brand">[DAON]</p>
+                        <h1 class="name">데일리 아이웨어 - DAON_3 V32222</h1>
+                        <p class="price">175,000<span>원</span></p>
+                    </div>
+                    <div class="right02">
+                        <div>
+                            <p>배송비</p>
+                            <div>무료</div>
+                        </div>
+                        <div>
+                            <p>배송정보</p>
+                            <div>평균배송일: 2일</div>
+                        </div>
+                        <div>
+                            <p>색상</p>
+                            <div>
+                                <select>
+                                    <option>색상</option>
+                                    <option>블랙</option>
+                                    <option>브라운</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                            <p>수령방법</p>
+                            <div>
+                                <div class="rad">
+                                    <input class="rad01" type="radio" id="rad01" name="rad">
+                                    <p>매장픽업</p>
+                                </div>
+                                <div class="rad">
+                                    <input class="rad02" type="radio" id="rad02" name="rad">
+                                    <p>택배</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right03">
+                        <div class="total">
+                            <p>합계</p>
+                            <p class="total_price"><span>0</span>원</p>
+                        </div>
+                        <div class="btn">
+                            <div><a href="#!">장바구니</a></div>
+                            <div class="buy"><a href="#!">바로구매</a></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="recommend">
+                <div class="recommend01">
+                    <p>관련 상품</p>
+                    <div class="img_box">
+                        <div>
+                            <a href="#!">
+                                <img src="./images/CRES_08_02.jpg" alt="관련상품 이미지1">
+                                <div class="product_info">
+                                    <p>
+                                        BIBIEM CRES 08<br/>
+                                        179,000원
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#!">
+                                <img src="./images/M4915_02.jpg" alt="관련상품 이미지2">
+                                <div class="product_info">
+                                    <p>
+                                        DAON M4915<br/>
+                                        99,000원
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#!">
+                                <img src="./images/M4916_02.jpg" alt="관련상품 이미지3">
+                                <div class="product_info">
+                                    <p>
+                                        DAON M4916<br/>
+                                        99,000원
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="recommend02">
+                    <p>추천 상품</p>
+                    <div class="img_box">
+                        <div>
+                            <a href="#!">
+                                <img src="./images/blue_01.jpg" alt="추천상품 이미지1">
+                                <div class="product_info">
+                                    <p>
+                                        블루라이트 차단 set<br/>
+                                        19,900원
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#!">
+                                <img src="./images/BODAM P1054_01.jpg" alt="추천상품 이미지2">
+                                <div class="product_info">
+                                    <p>
+                                        BODAM P1054<br/>
+                                        10,000원
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#!">
+                                <img src="./images/BIJOU04_02.jpg" alt="추천상품 이미지3">
+                                <div class="product_info">
+                                    <p>
+                                        BIBIEM BIJOU 04<br/>
+                                        175,000원
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tab">
+            <div class="tab01" id="tab01">
+                <ul>
+                    <li><a href="#tab01">상세설명</a></li>
+                    <li><a href="#tab02">상품후기</a></li>
+                    <li><a href="#tab03">상품문의</a></li>
+                    <li><a href="#tab04">배송안내</a></li>
+                </ul>
+                <div class="tab01_contents">
+                    <img src="./images/product.jpg" alt="제품상세 이미지01">
+                </div>
+            </div>
+
+            <div class="tab02" id="tab02">
+                <ul>
+                    <li><a href="#tab01">상세설명</a></li>
+                    <li><a href="#tab02">상품후기</a></li>
+                    <li><a href="#tab03">상품문의</a></li>
+                    <li><a href="#tab04">배송안내</a></li>
+                </ul>
+                <div class="tab02_contents">
+                    <div class="star_box">
+                        <div class="star">
+                            <div class="star_inner">
+                                <i class="fa-sharp fa-solid fa-star"></i>
+                                <i class="fa-sharp fa-solid fa-star"></i>
+                                <i class="fa-sharp fa-solid fa-star"></i>
+                                <i class="fa-sharp fa-solid fa-star"></i>
+                                <i class="fa-sharp fa-solid fa-star gray"></i>
+                            </div>
+                            <p class="score">4.0<span>/5</span></p>
+                        </div>
+                        <p><span>3</span>분이 평가에 참여하였습니다.</p>
+                    </div>
+                    <a href="#!" class="review_btn btn">
+                        <p>구매후기 쓰기</p>
+                    </a>
+                    <div class="review_box">
+                        <div class="review">
+                            <a href="#!">
+                                <div class="img_box">
+                                    <i class="fa-regular fa-file-lines"></i>
+                                </div>
+                                <div class="text_box">
+                                    <div class="user_star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star gray"></i>
+                                    </div>
+                                    <h5>좋아요~~</h5>
+                                    <p>색상도 마음에 들고 잘 쓰고 있어요 !</p>
+                                    <div class="user">
+                                        <div class="name">김수*</div>
+                                        <div class="date">2022.06.07</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="review">
+                            <a href="#!">
+                                <div class="img_box">
+                                    <img src="./images/review.jpg" alt="후기 이미지">
+                                </div>
+                                <div class="text_box">
+                                    <div class="user_star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star gray"></i>
+                                        <i class="fa-sharp fa-solid fa-star gray"></i>
+                                    </div>
+                                    <h5>그냥저냥</h5>
+                                    <p>색은 마음에 드는데 디자인이 생각만큼 예쁘진 않은 듯</p>
+                                    <div class="user">
+                                        <div class="name">김수*</div>
+                                        <div class="date">2022.06.07</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="review last">
+                            <a href="#!">
+                                <div class="img_box">
+                                    <i class="fa-regular fa-file-lines"></i>
+                                </div>
+                                <div class="text_box">
+                                    <div class="user_star">
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                        <i class="fa-sharp fa-solid fa-star"></i>
+                                    </div>
+                                    <h5>사용하던 테가 망가져서</h5>
+                                    <p>똑같은 안경으로 새로 샀는데 늘 쓰던 안경이라 착붙이네용 ㅎㅎㅎㅎ</p>
+                                    <div class="user">
+                                        <div class="name">김수*</div>
+                                        <div class="date">2022.06.07</div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="page_num">1</div>
+                </div>
+            </div>
+
+            <div class="tab03" id="tab03">
+                <ul>
+                    <li><a href="#tab01">상세설명</a></li>
+                    <li><a href="#tab02">상품후기</a></li>
+                    <li><a href="#tab03">상품문의</a></li>
+                    <li><a href="#tab04">배송안내</a></li>
+                </ul>
+                <div class="tab03_contents">
+                    <a href="#!" class="qna_btn btn">
+                        <p>문의하기</p>
+                    </a>
+                    <table>
+                        <tr class="top">
+                            <td>번호</td>
+                            <td>답변상태</tdclass=>
+                            <td>내용</td>
+                            <td>구매자</td>
+                            <td>등록일</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>답변완료</tdclass=>
+                            <td><a href="#!">주문취소 부탁드립니다<a></td>
+                            <td>김규*</td>
+                            <td>2022-05-18</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>답변완료</tdclass=>
+                            <td><a href="#!">언제배송되나요</a></td>
+                            <td>최송*</td>
+                            <td>2022-04-02</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>답변완료</tdclass=>
+                            <td><a href="#!">수령방법 변경</a></td>
+                            <td>한여*</td>
+                            <td>2022-01-15</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>답변완료</tdclass=>
+                            <td><a href="#!">렌즈</a></td>
+                            <td>정유*</td>
+                            <td>2021-10-26</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>답변완료</tdclass=>
+                            <td><a href="#!">환불문의</a></td>
+                            <td>김하*</td>
+                            <td>2021-07-19</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>답변완료</tdclass=>
+                            <td><a href="#!">주문취소요청입니다</a></td>
+                            <td>우철*</td>
+                            <td>2021-06-09</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>답변완료</tdclass=>
+                            <td><a href="#!">뜨레뷰 착용하고 써도 되는지</a></td>
+                            <td>지유*</td>
+                            <td>2021-06-01</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>답변완료</tdclass=>
+                            <td><a href="#!">취소</a></td>
+                            <td>박소*</td>
+                            <td>2020-12-27</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>답변완료</tdclass=>
+                            <td><a href="#!">안경</a></td>
+                            <td>이영*</td>
+                            <td>2020-12-17</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>답변완료</tdclass=>
+                            <td><a href="#!">아직 오질 않았는데 배송 완료라고 뜸</a></td>
+                            <td>박진*</td>
+                            <td>2020-10-10</td>
+                        </tr>
+                    </table>
+                    <div class="page_num">1</div>
+                </div>
+            </div>
+
+            <div class="tab04" id="tab04">
+                <ul>
+                    <li><a href="#tab01">상세설명</a></li>
+                    <li><a href="#tab02">상품후기</a></li>
+                    <li><a href="#tab03">상품문의</a></li>
+                    <li><a href="#tab04">배송안내</a></li>
+                </ul>
+                <div class="tab04_contents">
+                    <div class="content">
+                        <h5>배송정보</h5>
+                        <p>고객님이 무통장 입금으로 주문하신 경우에는 입금하신 날로부터, 신용카드로 구매하신 경우에는 구매하신 날로부터<br/>  
+                            2-3일 이내에(최장 7일이내) 입력하신 배송처로 주문상품이 도착하게 됩니다.<br/> 
+                            주문하신 상품에 따라 배송기간이 조금 상이할 수 있으니 자세한 사항은 상품 상세 페이지에 명시 되어있는 배송관련 내용을 참조해주시기 바랍니다.<br/>
+                            산간벽지나 도서지방은 별도의 추가금액을 지불하셔야 하는 경우가 있습니다.
+                        </p>
+                    </div>
+                    <div class="content">
+                        <h5>반품/교환안내</h5>
+                        <p>다비치의 제품은 교환 및 반품이 가능합니다</p>
+                        <table>
+                            <tr class="top">
+                                <td>사유</td>
+                                <td>반송배송비</td>
+                                <td>비고</td>
+                            </tr>
+                            <tr>
+                                <td>변심 교환/반품</td>
+                                <td>고객부담(선불)</td>
+                                <td>5,000원 계좌이체 or 차감환불(왕복 택배비)</td>
+                            </tr>
+                            <tr>
+                                <td>물품불량 다른모델교환(=변심교환)</td>
+                                <td>고객부담(선불)</td>
+                                <td>편도 2,500원 계좌이체</td>
+                            </tr>
+                            <tr>
+                                <td>물품불량 동일모델교환</td>
+                                <td>무료(착불)</td>
+                                <td>무료교환</td>
+                            </tr>
+                            <tr>
+                                <td>물품불량 반품</td>
+                                <td>무료(착불)</td>
+                                <td>물품확인 후 즉시 환불</td>
+                            </tr>
+                        </table>
+                        <p>
+                            교환/반품시에는 반드시 사전에 고객센터 혹은 교환/반품 게시판으로 신청해주시기 바랍니다.<br/>
+                            상품 불량을 사유로 다른 모델로 교환하시는 경우에는 단순변심 교환과 동일하게 처리됩니다.<br/>
+                            반드시 배송은 로젠택배 (1588-9988)를 이용해주시기 바랍니다.<br/>
+                            사전 연락 없이 타 택배사를 이용하여 착불로 보내시면 반송되오니 양해 부탁드립니다.
+                        </p>
+                        <div>
+                            <h6>다음의 경우 교환 및 반품이 불가하니 주의해주세요.</h6>
+                            <p>
+                                1. 상품의 사용/하자 여부와 관계없이 수령 후 7일이 지난 경우<br/>
+                                2. 상품에 부착된 사용방지택을 제거하거나 다시 붙인 경우<br/>
+                                3. 상품의 보증서, 케이스, 포장비닐, 사은품 등 구성품이 훼손 또는 분실된 경우<br/>
+                                4. 개인피팅이 가해졌거나 렌즈 작업이 된 경우<br/>
+                                5. 변심으로 이미 1회 교환한 경우
+                            </p>
+                        </div>
+                        <div>
+                            <h6>다음의 경우 불량이 아닙니다.</h6>
+                            <p>
+                                1. 제조, 유통시 발생하는 미세 스크레치<br/>
+                                2. 안경 데모 렌즈의 스크레치<br/>
+                                3. 피팅 상태의 미비
+                            </p>
+                        </div>
+                        <div>
+                            <h6>※ 참고해주세요! ※</h6>
+                            <p>
+                                온라인으로 구매하신 제품은 오프라인 매장에서 교환/반품하실 수 없습니다.<br/>
+                                고객센터 혹은 교환/반품 게시판으로 신청 후, 꼭 택배로 보내주시기 부탁드립니다.
+                            </p>
+                        </div>
+                        <div>
+                            <h6>깊이가 다른 A/S</h6>
+                            <p>
+                                다비치에서 구입하신 상품을 착용하시다가 불편함이 생기시면 언제든지 찾아주세요.<br/>
+                                10년 경력의 전문가가 정성을 다해 상담과 수리를 진행해 드립니다.
+                            </p>
+                        </div>
+                        <div>
+                            <h6>※ 참고해주세요! ※</h6>
+                            <p>
+                                다비치에서 구매하신 상품만 A/S가 가능합니다.<br/>
+                                A/S는 무상수리가 기본이며, 원인이나 상태에 따라 부득이한 비용이 발생할 수 있습니다.<br/>
+                                수입제품의 경우 백화점과 동일하게 약 2-3주의 수리 기간이 소요됩니다.<br/>
+                                부품의 해외 공수가 필요한 경우 예정 기간을 미리 알려드립니다.<br/>
+                                가장 흔한 A/S 사유인 휘어짐이나 폴리싱 작업은 대부분 빠르게 무료로 진행해드립니다.<br/>
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="content">
+                        <h5>반품/환불안내</h5>
+                        <p>회사는 소비자의 보호를 위해서 규정한 제반 법규를 준수합니다.</p>
+                        <p>주문 취소는 미 결제 상태인 경우, 고객님이 직접 취소하실 수 있습니다.<br/> 
+                            결제 후 취소는 저희 고객센터(070-7433-0137, 070-7405-1003)로 문의해 주시기 바랍니다.<br/>
+                            무통장 입금의 경우 일정기간 동안 송금을 하지 않으면 자동 주문 취소가 되고, 구매자가 원하는 경우 인터넷에서 바로 취소 가능하며,<br/>
+                            송금을 하신 경우에는 요청에 따라 환불 처리 해드립니다.
+                        </p>
+                        <p>신용카드로 결제하신 경우는 신용카드 승인을 취소하여 결제 대금이 청구되지 않게 합니다. 이때 승인 취소는 카드사에 따라 2-3일 정도 소요될 수 있습니다.<br/>
+                            (단, 신용카드 결제일자에 맞추어 대금이 청구 될수 있으며, 이 경우 익월 신용카드 대금 청구시 카드사에서 환급처리 됩니다.)
+                        </p>
+                    </div>
+                    <div class="content">
+                        <h5>반품 주소지 (※ 입점사 상품은 개별 상품페이지 참조)</h5>
+                        <p>(41494) 대구 북구 노원동3가 1205-20 3층</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+    </div> <!-- wrap -->
+
+
+    <div class="footer_box">
+        <footer class="footer01">
+            <div class="footer01_contents">
+                <ul class="left">
+                    <li><a href="#!">회사소개</a></li>
+                    <li><a href="#!">개인정보처리방침</a></li>
+                    <li><a href="#!">위치정보</a></li>
+                    <li><a href="#!">이용약관</a></li>
+                    <li><a href="#!">청소년보호정책</a></li>
+                    <li><a href="#!">멤버쉽회원약관</a></li>
+                    <li><a href="#!">온라인몰이용약관</a></li>
+                    <li><a href="#!">입점/제휴문의</a></li>
+                    <li><a href="#!">인재채용</a></li>
+                    <li><a href="#!">고객센터</a></li>
+                </ul>
+                <ul class="family">
+                    Family Site <i class="fa-solid fa-caret-down"></i>
+                    <li><a href="#!">다비치안경</a></li>
+                    <li><a href="#!">다비치렌즈</a></li>
+                    <li><a href="#!">다비치보청기</a></li>
+                    <li><a href="#!">K비젼안경</a></li>
+                    <li><a href="#!">bibiem</a></li>
+                </ul>
+            </div>
+        </footer>
+        <footer class="footer02">
+            <div class="footer02_contents">
+                <div class="cs">
+                    <p class="footer_title">고객센터</p>
+                    <p class="nomber">02-752-6177</p>
+                    <p class="time">평일 10:00~18:00</p>
+                    <p class="time">점심 12:30~13:30</p>
+                    <p class="time time_last">주말, 공휴일 휴무</p>
+                    <a class="bt" href="#!">자주찾는 질문</a>
+                </div>
+                <div class="notice">
+                    <p class="footer_title">공지사항</p>
+                    <a class="bt" href="#!">더보기</a>
+                    <ul>
+                        <li><a href="#!">2022년 설날 연휴 배송 안내</a></li>
+                        <li><a href="#!">21년 11월 개인정보 처리방침 변경 안내</a></li>
+                        <li><a href="#!">클라우드 서버 이전 작업으로 인한 서비스 중단 안내</a></li>
+                        <li><a href="#!">2020 추석 연휴 배송 안내</a></li>
+                    </ul>
+                </div>
+                <div class="app">
+                    <p class="footer_title">다비치 어플리케이션</p>
+                    <div class="qr">
+                        <img class="qr_img" src="./images/qr.jpg" alt="큐알코드 이미지">
+                        <p class="qr_txt1">모바일앱 다운하고 다양한 혜택을 누리세요!</p>
+                        <p class="qr_txt2">◀ 다비치 앱 설치하기</p>
+                    </div>
+                </div>                
+            </div>
+        </footer>
+        <footer class="footer03">
+            <div class="footer03_contents">
+                <div class="txt">
+                    <p>(주)다비치안경체인 대표이사 : 김인규 사업자등록번호 : 7648101136 [확인] 통신판매업신고번호 : 제2018서울중구1142호</p>
+                    <p>주소 : 서울 중구 소공로 62 3층(충무로1가) 대표전화 : 02-752-6177 이메일 : davichmarket@davich.com</p>
+                    <p>다비치마켓 © Davich Corp. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </div> <!-- footer -->
+
+    <div class="top_btn">
+        <a href="#header">
+            <i class="fa-sharp fa-solid fa-arrow-up top_icon"></i>
+        </a>
+    </div> <!-- top_botton -->
+
+    <input type="checkbox" id="wing_chk" checked>
+    <div class="wing_banner">
+        <div class="wing_btn">
+            <label for="wing_chk" class="open"><i class="fa-sharp fa-solid fa-ellipsis-vertical"></i></label>
+            <label for="wing_chk" class="close"><i class="fa-sharp fa-solid fa-chevron-right"></i></label>
+        </div>
+        <div class="wing_box">
+            <div class="wing01">
+                <i class="fa-sharp fa-solid fa-chevron-left"></i>
+                <p>최근본상품</p>
+                <i class="fa-sharp fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="wing02"><a href="#!">장바구니</a></div>
+            <div class="wing03"><a href="#!">찜한상품</a></div>
+            <div class="wing04"><a href="#!">매장찾기</a></div>
+        </div>
+    </div> <!-- wing_banner -->
+
+    <input type="checkbox" id="pop">
+    <div class="popup">
+        <label for="pop" class="popup_btn"><i class="fa-solid fa-xmark"></i></label>
+        <div class="pop_img"><a href="#!"><img src="./images/popup.jpg" alt="팝업 이미지"></a></div>
+    </div> <!-- popup -->
+
+</body>
+</html>
+    
