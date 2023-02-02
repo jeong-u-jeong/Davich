@@ -3,7 +3,7 @@ $(function(){
 
     $('#id').focus();
 
-    const id = 'greencomputer';
+    const id = 'jyj';
     const pw = '1234';
 
     $('#btn_login').click(function(e){

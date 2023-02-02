@@ -4,7 +4,7 @@ $(function(){
 
     $('#user_id').focus();
 
-    const idData = ['greencomputer', 'redcomputer', 'bluecomputer', 'yellowcomputer', 'blackcomputer'];
+    const idData = ['red', 'blue', 'yellow', 'green', 'black'];
     let userId = '';
 
 
